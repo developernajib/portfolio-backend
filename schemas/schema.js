@@ -6,6 +6,7 @@ import abouts from "./abouts";
 import skills from "./skills";
 import contact from "./contact";
 import certificates from "./certificates";
+import courses from "./courses";
 
 export default createSchema({
     name: "default",
@@ -16,5 +17,6 @@ export default createSchema({
         skills,
         contact,
         certificates,
+		courses,
     ]),
 });
